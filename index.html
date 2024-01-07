@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mona's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="/">
+                        <li>Home
+                    </a></li>
+                    <a href="Projects.html">
+                        <li>Projects
+                    </a></li>
+                    <a href="contact.html">
+                        <li>Contact Me
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>Hi I am <span class="purple">Mona Dash.</span></div>
+                <div>and I am an Aspiring </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"><a href="Mona_Dash_Resume.pdf"> Download Resume</a></button>
+                    
+                    <button class="btn"><a href="https://github.com/Mona20001012?tab=repositories"> Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="dev2.webp" alt="">
+            </div>
+        </section>
+        <section class="secondSection">
+            <span class="text-grey">What I have done for</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        Cyber Security Intern@Intern(COE,PMEC,Tech
+                        Mahindra)(12/2022-07/2023)
+                    </div>
+                    <div class="vertical-desc">
+                        enhancing expertise in threat detection, vulnerability assessment, and incident response
+                        Applied lab experience on XSS, SQL injection, CSRF, SSRF, Directory Traversal using Burp Suite
+                        and performs attacks like password attacking , session hijacking
+                    </div>
+                </div>
+                <div class="vertical">
+                    
+                    <div class="vertical-title">
+                        Web Developer Intern(04/2023-05/2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Refining skills in front-end technologies while contributing to the creation of dynamic and
+                        user-friendly websites.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <h3>My Skills:</h3>
+        <section class="thirdSection">
+            <div>
+               Language: C,C++,HTML,CSS,JavaScript,Python<br>
+               Libraries/Frameworks :ReactJs,NodeJS,ExpressJS.,Redux
+            </div>
+            <div>
+                Database: MySql,MongoDB
+            </div>
+            <div>
+                Tools : GIT,Postman
+            </div>
+            <div>
+                Platforms :Netilify,Windows,Github
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                M's Portfolio
+                <div class="footer-second">
+                    <p>Copyright @ M's || All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front end Web developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
